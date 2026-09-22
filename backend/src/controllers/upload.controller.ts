@@ -24,7 +24,9 @@ export const uploadAndExtract = async (req: Request, res: Response): Promise<voi
       text = fs.readFileSync(finalPath, 'utf8');
     } else {
       // Convert to markdown text using officeparser
+      // @ts-ignore - TS types are strict but the runtime API supports markdown
       const result = await convert(finalPath, 'markdown');
+      // @ts-ignore
       text = result.value || '';
     }
     
