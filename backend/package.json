@@ -27,9 +27,7 @@
     "mongoose": "^9.10.1",
     "multer": "^2.4.0",
     "officeparser": "^8.0.0",
-    "robots-parser": "^3.0.1"
-  },
-  "devDependencies": {
+    "robots-parser": "^3.0.1",
     "@types/bcrypt": "^6.0.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
