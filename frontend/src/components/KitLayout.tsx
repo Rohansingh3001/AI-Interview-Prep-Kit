@@ -81,6 +81,7 @@ export default function KitLayout({ children, id }: { children: React.ReactNode,
     { name: 'Questions', path: `/kits/${id}/questions` },
     { name: 'Flashcards', path: `/kits/${id}/flashcards` },
     { name: 'Study Plan', path: `/kits/${id}/schedule` },
+    { name: 'Mock Interview', path: `/kits/${id}/mock` },
   ];
 
   return (
